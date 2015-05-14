@@ -1,0 +1,323 @@
+body {
+    text-align:center;
+}
+
+/*Error messages*/
+
+.error,
+.notice,
+.xmlnotice,
+.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.error a    { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+
+.xmlnotice {
+    background: #FFF6BF;
+    color: #514721;
+    border-color: #FFD324;
+    overflow-x: auto; /* Use horizontal scroller if needed; for Firefox 2, not needed in Firefox 3 */
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    /* width: 99%; */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+
+/*Tables*/
+
+table {
+    width:100%;
+}
+    td {
+        border-bottom: 1px solid #ddd;
+    }
+    
+    tfoot {
+        background:#eee;
+    }
+    
+    tr td:first-child {
+        width:150px;
+    }
+   
+
+    .resultList tr td:first-child {
+        width: auto;
+    }
+
+/*Forms*/
+
+input[type=text], input[type=password], select, textarea {
+    width:400px;
+    padding:5px;
+    margin:0;
+}
+
+#xml {
+    width:500px;
+    padding:5px;
+    margin:0;
+}
+select {
+    width:414px;
+}
+
+#wrapper {
+    margin:0 auto;
+    text-align:left;
+    width:960px;
+}
+
+#contentwrapper {
+    
+}
+    #head, #navigation {
+        margin:10px 0 10px 0;
+    }
+    
+   #content {
+        
+        width: 720px;
+        margin: 0px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
+    }
+
+/* Header */
+
+/* head content */
+
+
+#head {
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#head h1, #head p {
+	float: left;
+	margin: 0;
+	color: #528DC8;
+}
+
+#head span {
+	color: #000000;
+}
+
+#head h1 {
+	padding: 25px 0 0 0;
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-size: 3em;
+}
+
+#head p {
+	text-transform: uppercase;
+	padding: 47px 0 0 3px;
+	font-size: 10px;
+	color: #110E0F;
+}
+
+#head a {
+	border: none;
+	text-decoration: none;
+	color: #528DC8;
+}
+
+#headcontent {
+    padding: 10px 0 0 3px;
+    float: right;
+    
+}
+
+#headcontent label {
+    font: normal 11px;
+    width: 10px;
+    padding: 1px;
+}
+#headcontent input[type=text]{
+    
+    width: 50px;
+    height: 11px;
+    line-height: 11px;
+    font-size: 95%;
+}
+
+#headcontent input[type=password] {
+
+    width: 50px;
+    height: 11px;
+    line-height: 11px;
+    font-size: 95%;
+}
+
+#headcontent .loginbtn {
+    margin-left: 65px;
+}
+
+#userheadcontent{
+    padding: 10px 0 0 3px;
+    float: right;
+}
+/* Menu */
+
+#menu {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+	height: 52px;
+	background: url(../images/img02.jpg) no-repeat left top;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 33px;
+	margin: 0px;
+	padding: 19px 30px 0px 30px;
+	text-decoration: none;
+	text-transform: capitalize;
+	background: url(../images/img03.jpg) no-repeat right;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+
+
+    #content {
+        float: left;
+    }
+    
+    #col1 {
+        float: left;
+        margin-left: -1px;
+        padding: 10px;
+        width: 50%;
+    }
+
+    #internalLinks {
+        float: left;
+        margin-left: -1px;
+        padding: 10px;
+    }
+
+    #internalLinks ul
+    {
+        list-style-image: url('../images/img08.gif');
+        list-style-position: outside;
+    }
+
+    #internalLinks li{
+        border-bottom: 1px solid #ddd;
+    }
+
+    #col2 {
+        padding: 10px;
+    }
+
+    #foot {
+        width: 960px;
+	height: 70px;
+	margin: 0 auto;
+	padding-left: 20px;
+    }
+
+
+/* Sidebars */
+
+#sideMenuL {
+	float: right;
+	padding-top: 20px;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sideMenuL ul {
+	padding-bottom: 10px;
+}
+
+#sideMenuL li {
+	background: url(../images/img11.jpg) no-repeat left bottom;
+}
+
+#sideMenuL li ul {
+	background: url(../images/img10.jpg) repeat-y left top;
+}
+
+#sideMenuL li li {
+	background: url(../images/img08.gif) no-repeat 0 13px;
+}
+
+#sideMenuL li h2 {
+	height: 25px;
+	padding-top: 15px;
+	background: url(../images/img09.jpg) no-repeat left top;
+	color: #333333;
+}
+
+.sideMenu {
+	float: left;
+	width: 220px;
+	padding: 10px 0 0 0;
+	font-size: 12px;
+}
+
+.sideMenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sideMenu li {
+	padding: 0 0 20px 0;
+}
+
+.sideMenu li ul {
+}
+
+.sideMenu li li {
+	margin: 0 10px 0 15px;
+	padding: 8px 0px 8px 20px;
+	border-bottom: 1px #B5B5B5 dashed;
+	background: url(../images/img08.gif) no-repeat 0 13px;
+	text-align: left;
+}
+
+
+.sideMenu li h2 {
+	height: 30px;
+	margin: 0 0 0 0;
+	padding: 8px 15px 0px 35px;
+	background: url(../images/img07.jpg) no-repeat left top;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.sideMenu a {
+}
